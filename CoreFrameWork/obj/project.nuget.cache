@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cafCCCqeV2ZO/Ve5h3B/wV27pQWTxC42O4Jc0puPr4jX3fwiR7ZiwCPrW+OsbrKoSetl7LS4vNjdG043+Ka7sw==",
+  "dgSpecHash": "zOck/xJQlTn+rSVBFMZDlCD/Tfg8YNOrGgMmZ0L6IVzNU1kKKgB2Gse7nimOfVR2cPx3hSE9kcAKyZBB2bDDIw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\tle8_amaris.com\\source\\repos\\CoreFrameWork\\CoreFrameWork.csproj",
+  "projectFilePath": "C:\\Users\\tle8_amaris.com\\Desktop\\tesst\\AutomationTest\\CoreFrameWork\\CoreFrameWork.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tle8_amaris.com\\.nuget\\packages\\dotnetseleniumextras.waithelpers\\3.11.0\\dotnetseleniumextras.waithelpers.3.11.0.nupkg.sha512",
     "C:\\Users\\tle8_amaris.com\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",

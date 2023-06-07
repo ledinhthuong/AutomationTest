@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\tle8_amaris.com\\source\\repos\\CoreFrameWork\\CoreFrameWork.csproj": {}
+    "C:\\Users\\tle8_amaris.com\\Desktop\\tesst\\AutomationTest\\CoreFrameWork\\CoreFrameWork.csproj": {}
   },
   "projects": {
-    "C:\\Users\\tle8_amaris.com\\source\\repos\\CoreFrameWork\\CoreFrameWork.csproj": {
+    "C:\\Users\\tle8_amaris.com\\Desktop\\tesst\\AutomationTest\\CoreFrameWork\\CoreFrameWork.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tle8_amaris.com\\source\\repos\\CoreFrameWork\\CoreFrameWork.csproj",
+        "projectUniqueName": "C:\\Users\\tle8_amaris.com\\Desktop\\tesst\\AutomationTest\\CoreFrameWork\\CoreFrameWork.csproj",
         "projectName": "CoreFrameWork",
-        "projectPath": "C:\\Users\\tle8_amaris.com\\source\\repos\\CoreFrameWork\\CoreFrameWork.csproj",
+        "projectPath": "C:\\Users\\tle8_amaris.com\\Desktop\\tesst\\AutomationTest\\CoreFrameWork\\CoreFrameWork.csproj",
         "packagesPath": "C:\\Users\\tle8_amaris.com\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tle8_amaris.com\\source\\repos\\CoreFrameWork\\obj\\",
+        "outputPath": "C:\\Users\\tle8_amaris.com\\Desktop\\tesst\\AutomationTest\\CoreFrameWork\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\tle8_amaris.com\\AppData\\Roaming\\NuGet\\NuGet.Config",

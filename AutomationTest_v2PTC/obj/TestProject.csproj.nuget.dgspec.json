@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\tle8_amaris.com\\source\\repos\\backup\\AutomationTest_v2PTC\\TestProject.csproj": {}
+    "C:\\Users\\tle8_amaris.com\\Desktop\\tesst\\AutomationTest\\AutomationTest_v2PTC\\TestProject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\tle8_amaris.com\\source\\repos\\backup\\AutomationTest_v2PTC\\TestProject.csproj": {
+    "C:\\Users\\tle8_amaris.com\\Desktop\\tesst\\AutomationTest\\AutomationTest_v2PTC\\TestProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tle8_amaris.com\\source\\repos\\backup\\AutomationTest_v2PTC\\TestProject.csproj",
+        "projectUniqueName": "C:\\Users\\tle8_amaris.com\\Desktop\\tesst\\AutomationTest\\AutomationTest_v2PTC\\TestProject.csproj",
         "projectName": "TestProject",
-        "projectPath": "C:\\Users\\tle8_amaris.com\\source\\repos\\backup\\AutomationTest_v2PTC\\TestProject.csproj",
+        "projectPath": "C:\\Users\\tle8_amaris.com\\Desktop\\tesst\\AutomationTest\\AutomationTest_v2PTC\\TestProject.csproj",
         "packagesPath": "C:\\Users\\tle8_amaris.com\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tle8_amaris.com\\source\\repos\\backup\\AutomationTest_v2PTC\\obj\\",
+        "outputPath": "C:\\Users\\tle8_amaris.com\\Desktop\\tesst\\AutomationTest\\AutomationTest_v2PTC\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\tle8_amaris.com\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -29,8 +29,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\tle8_amaris.com\\source\\repos\\backup\\CoreFrameWork\\CoreFrameWork.csproj": {
-                "projectPath": "C:\\Users\\tle8_amaris.com\\source\\repos\\backup\\CoreFrameWork\\CoreFrameWork.csproj"
+              "C:\\Users\\tle8_amaris.com\\Desktop\\tesst\\AutomationTest\\CoreFrameWork\\CoreFrameWork.csproj": {
+                "projectPath": "C:\\Users\\tle8_amaris.com\\Desktop\\tesst\\AutomationTest\\CoreFrameWork\\CoreFrameWork.csproj"
               }
             }
           }
@@ -86,6 +86,83 @@
           "warn": true,
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\tle8_amaris.com\\Desktop\\tesst\\AutomationTest\\CoreFrameWork\\CoreFrameWork.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\tle8_amaris.com\\Desktop\\tesst\\AutomationTest\\CoreFrameWork\\CoreFrameWork.csproj",
+        "projectName": "CoreFrameWork",
+        "projectPath": "C:\\Users\\tle8_amaris.com\\Desktop\\tesst\\AutomationTest\\CoreFrameWork\\CoreFrameWork.csproj",
+        "packagesPath": "C:\\Users\\tle8_amaris.com\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\tle8_amaris.com\\Desktop\\tesst\\AutomationTest\\CoreFrameWork\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\tle8_amaris.com\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://baget.mantu.com/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "DotNetSeleniumExtras.WaitHelpers": {
+              "target": "Package",
+              "version": "[3.11.0, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.12.0, )"
+            },
+            "Selenium.Support": {
+              "target": "Package",
+              "version": "[4.9.1, )"
+            },
+            "Selenium.WebDriver": {
+              "target": "Package",
+              "version": "[4.9.1, )"
+            },
+            "Selenium.WebDriver.ChromeDriver": {
+              "target": "Package",
+              "version": "[114.0.5735.9000, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
               "privateAssets": "all"
             }
           },

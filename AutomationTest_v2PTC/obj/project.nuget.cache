@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "H/kAX+z3BBawX159OM7Vfi/U7bBn7X26XgK2vcEHr0igjsrQQekD2hdLU2ivn7YhzBvryNRH1lApaC46oMIH3A==",
-  "success": false,
-  "projectFilePath": "C:\\Users\\tle8_amaris.com\\source\\repos\\backup\\AutomationTest_v2PTC\\TestProject.csproj",
+  "dgSpecHash": "obyWI/SczZ3V8eaV2SQ0TNIHJO27N+gkaiq42rmnaNipHxrdW7QLnF3GgaC0pWaZGw02byzz0CPOoggC2gSncw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\tle8_amaris.com\\Desktop\\tesst\\AutomationTest\\AutomationTest_v2PTC\\TestProject.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tle8_amaris.com\\.nuget\\packages\\dotnetseleniumextras.waithelpers\\3.11.0\\dotnetseleniumextras.waithelpers.3.11.0.nupkg.sha512",
     "C:\\Users\\tle8_amaris.com\\.nuget\\packages\\microsoft.codecoverage\\16.5.0\\microsoft.codecoverage.16.5.0.nupkg.sha512",
@@ -62,15 +62,5 @@
     "C:\\Users\\tle8_amaris.com\\.nuget\\packages\\system.xml.xpath\\4.3.0\\system.xml.xpath.4.3.0.nupkg.sha512",
     "C:\\Users\\tle8_amaris.com\\.nuget\\packages\\system.xml.xpath.xmldocument\\4.3.0\\system.xml.xpath.xmldocument.4.3.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1105",
-      "level": "Error",
-      "message": "Unable to find project information for 'C:\\Users\\tle8_amaris.com\\source\\repos\\backup\\CoreFrameWork\\CoreFrameWork.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
-      "libraryId": "C:\\Users\\tle8_amaris.com\\source\\repos\\backup\\CoreFrameWork\\CoreFrameWork.csproj",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
-      ]
-    }
-  ]
+  "logs": []
 }

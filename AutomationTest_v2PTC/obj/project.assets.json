@@ -1057,6 +1057,23 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XPath.XmlDocument.dll": {}
         }
+      },
+      "CoreFrameWork/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "DotNetSeleniumExtras.WaitHelpers": "3.11.0",
+          "NUnit": "3.12.0",
+          "Selenium.Support": "4.9.1",
+          "Selenium.WebDriver": "4.9.1",
+          "Selenium.WebDriver.ChromeDriver": "114.0.5735.9000"
+        },
+        "compile": {
+          "bin/placeholder/CoreFrameWork.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CoreFrameWork.dll": {}
+        }
       }
     }
   },
@@ -3942,11 +3959,16 @@
         "system.xml.xpath.xmldocument.4.3.0.nupkg.sha512",
         "system.xml.xpath.xmldocument.nuspec"
       ]
+    },
+    "CoreFrameWork/1.0.0": {
+      "type": "project",
+      "path": "../CoreFrameWork/CoreFrameWork.csproj",
+      "msbuildProject": "../CoreFrameWork/CoreFrameWork.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "C:\\Users\\tle8_amaris.com\\source\\repos\\backup\\CoreFrameWork\\CoreFrameWork.csproj",
+      "CoreFrameWork >= 1.0.0",
       "DotNetSeleniumExtras.WaitHelpers >= 3.11.0",
       "Microsoft.NET.Test.Sdk >= 16.5.0",
       "NUnit >= 3.12.0",
@@ -3962,11 +3984,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\tle8_amaris.com\\source\\repos\\backup\\AutomationTest_v2PTC\\TestProject.csproj",
+      "projectUniqueName": "C:\\Users\\tle8_amaris.com\\Desktop\\tesst\\AutomationTest\\AutomationTest_v2PTC\\TestProject.csproj",
       "projectName": "TestProject",
-      "projectPath": "C:\\Users\\tle8_amaris.com\\source\\repos\\backup\\AutomationTest_v2PTC\\TestProject.csproj",
+      "projectPath": "C:\\Users\\tle8_amaris.com\\Desktop\\tesst\\AutomationTest\\AutomationTest_v2PTC\\TestProject.csproj",
       "packagesPath": "C:\\Users\\tle8_amaris.com\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\tle8_amaris.com\\source\\repos\\backup\\AutomationTest_v2PTC\\obj\\",
+      "outputPath": "C:\\Users\\tle8_amaris.com\\Desktop\\tesst\\AutomationTest\\AutomationTest_v2PTC\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\tle8_amaris.com\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3984,8 +4006,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\tle8_amaris.com\\source\\repos\\backup\\CoreFrameWork\\CoreFrameWork.csproj": {
-              "projectPath": "C:\\Users\\tle8_amaris.com\\source\\repos\\backup\\CoreFrameWork\\CoreFrameWork.csproj"
+            "C:\\Users\\tle8_amaris.com\\Desktop\\tesst\\AutomationTest\\CoreFrameWork\\CoreFrameWork.csproj": {
+              "projectPath": "C:\\Users\\tle8_amaris.com\\Desktop\\tesst\\AutomationTest\\CoreFrameWork\\CoreFrameWork.csproj"
             }
           }
         }
@@ -4047,16 +4069,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1105",
-      "level": "Error",
-      "message": "Unable to find project information for 'C:\\Users\\tle8_amaris.com\\source\\repos\\backup\\CoreFrameWork\\CoreFrameWork.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
-      "libraryId": "C:\\Users\\tle8_amaris.com\\source\\repos\\backup\\CoreFrameWork\\CoreFrameWork.csproj",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
-      ]
-    }
-  ]
+  }
 }

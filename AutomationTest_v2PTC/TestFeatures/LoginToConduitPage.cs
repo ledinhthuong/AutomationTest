@@ -2,11 +2,12 @@ using NUnit.Framework;
 using CoreFrameWork;
 using OpenQA.Selenium;
 using TestProject.PageObject.Conduit;
+using TestProject;
 
 namespace AutomationTest
 {
     [TestFixture]
-    public class Tests
+    public class LoginToConduitPage : MasterTest
     {
         [Test]
         public static void UserCanCreateAccountSuccessfully()

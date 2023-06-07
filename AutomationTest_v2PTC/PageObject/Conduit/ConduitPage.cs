@@ -7,8 +7,9 @@ using System.Text;
 
 namespace TestProject.PageObject.Conduit
 {
-    class ConduitPage:BasePage
+    class ConduitPage
     {
+        public static IWebDriver driver = MasterTest.driver;
         public static string url = "https://react-redux.realworld.io";
 
         public static string signUpBtn = "//a[.='Sign up']";
