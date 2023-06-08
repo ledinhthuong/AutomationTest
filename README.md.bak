@@ -5,7 +5,7 @@ The repos contain 2 projects
 - TestProject: I follow basic rules for POM design
 
 
-To run the test:
+To run the test
 - Install Visual Studio (2019)
 - Install .Net lib (.NET Standard 2.1 and .NET Core 3.1 )
 - Clone the test repos: You will get 2 folders (AutomationTest_v2PTC and CoreFrameWork)

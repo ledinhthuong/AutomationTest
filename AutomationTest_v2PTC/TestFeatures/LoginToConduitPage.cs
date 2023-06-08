@@ -15,8 +15,8 @@ namespace AutomationTest
             ConduitPage.UserGoToHomePage();
             ConduitPage.UserClicksOnSignUpBtn();
             ConduitPage.UserShouldBeRedirectToSignUpPage();
-            ConduitPage.UserFilterUserNameAs("TesshggsssdddtUserX");
-            ConduitPage.UserFilterEmailAs("tessssgddst@gmail.com");
+            ConduitPage.UserFilterUserNameAs("TestNewUser06");
+            ConduitPage.UserFilterEmailAs("TestNewUser06@gmail.com");
             ConduitPage.UserFilterPasswordAs("123456");
             ConduitPage.UserClickOnSignInBtnOnSignInForm();
             ConduitPage.UserShouldBeRedirectedToUserHomePage();
@@ -28,12 +28,11 @@ namespace AutomationTest
             ConduitPage.UserGoToHomePage();
             ConduitPage.UserClicksOnSignInBtn();
             ConduitPage.UserShouldBeRedirectToSignIpPage();
-            ConduitPage.UserFilterEmailAs("tesdst@gmail.com");
+            ConduitPage.UserFilterEmailAs("TestNewUsdfd6er03@gmail.com");
             ConduitPage.UserFilterPasswordAs("123456");
             ConduitPage.UserClickOnSignInBtnOnSignInForm();
             ConduitPage.UserShouldGetTheErrorMessage("email or password is invalid");
             ConduitPage.UserTillInSignInPage();
-
         }
 
 

@@ -13,7 +13,7 @@ namespace CoreFrameWork
         public static IDictionary<string, string> ChromeVersion = new Dictionary<string, string>(){
             {"112", @"C:\SeleniumAT\Chrome112"},
             {"113", @"C:\SeleniumAT\Chrome113"},
-            {"114", @"C:\SeleniumAT\Chrome114"}
+            {"114",""}
         };
 
 
@@ -26,15 +26,15 @@ namespace CoreFrameWork
                     switch (driverName.ToLower())
                     {
                         case "chrome":
-                            Driver = new ChromeDriver();                        
+                            Driver = new ChromeDriver(driverPath);                        
                             break;
 
                         case "firefox":
-                            Driver = new FirefoxDriver();
+                            Driver = new FirefoxDriver(driverPath);
                             break;
 
                         case "Edge":
-                            Driver = new EdgeDriver();
+                            Driver = new EdgeDriver(driverPath);
                             break;
                         default:
                             throw new NotSupportedException("the web browser is not supported!");

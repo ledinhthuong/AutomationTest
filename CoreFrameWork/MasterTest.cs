@@ -11,14 +11,14 @@ namespace CoreFrameWork
     {
         public static IWebDriver driver = DriverFactory.getWebDriver("chrome", DriverFactory.ChromeVersion["114"]);
         
-        [SetUp]
+        [OneTimeSetUp]
         public static void Setup()
         {
             driver = DriverFactory.getWebDriver("chrome", DriverFactory.ChromeVersion["114"]);
         }
 
 
-        [TearDown]
+        [OneTimeTearDown]
         public static void TearDown()
         {
             DriverFactory.TerminateWebDriver();
